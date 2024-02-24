@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!-- 使用 xml 的方式往ioc容器中实例化 User 对象 -->
+    <bean id="user" class="org.example.dao.User">
+        <property name="name" value="binshow"/>
+        <property name="age" value="18"/>
+    </bean>
+
+<!--    &lt;!&ndash;开启包扫描，可以通过注解来实例化bean&ndash;&gt;-->
+<!--    <context:component-scan base-package="org.example"/>-->
+
+</beans>
