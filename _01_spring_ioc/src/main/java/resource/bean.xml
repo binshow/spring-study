@@ -7,11 +7,17 @@
 
     <!-- 使用 xml 的方式往ioc容器中实例化 User 对象 -->
     <bean id="user" class="org.example.dao.User">
+        <!-- property标签：通过组件类的setXxx()方法给组件对象设置属性 -->
+        <!-- name属性：指定属性名（这个属性名是getXxx()、setXxx()方法定义的，和成员变量无关） -->
+        <!-- value属性：指定属性值 -->
         <property name="name" value="binshow"/>
         <property name="age" value="18"/>
     </bean>
 
-<!--    &lt;!&ndash;开启包扫描，可以通过注解来实例化bean&ndash;&gt;-->
-<!--    <context:component-scan base-package="org.example"/>-->
+    <bean id="user2" class="org.example.dao.User">
+        <constructor-arg value="1002"></constructor-arg>
+        <constructor-arg value="18"></constructor-arg>
+    </bean>
+
 
 </beans>

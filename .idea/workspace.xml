@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efa2c9c8-d1f0-40d2-b56a-c0c82cd53878" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_103-springboot-mybatis/src/main/java/com/binshow/_103springbootmybatis/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_103-springboot-mybatis/src/main/java/com/binshow/_103springbootmybatis/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_103-springboot-mybatis/src/main/java/com/binshow/_103springbootmybatis/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_103-springboot-mybatis/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/resource/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_spring_log4j/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_spring_log4j/src/main/java/org/binshow/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_spring_log4j/src/test/java/org/binshow/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_104-springboot-swagger/src/main/java/com/binshow/_104springbootswagger/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_104-springboot-swagger/src/main/java/com/binshow/_104springbootswagger/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_104-springboot-swagger/src/main/java/com/binshow/_104springbootswagger/dao/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_spring_ioc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_01_spring_ioc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/org/example/dao/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/org/example/dao/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/resource/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/resource/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_spring_ioc/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/_01_spring_ioc/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_101-springboot-helloworld/src/main/java/com/binshow/_101springboothelloworld/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/_101-springboot-helloworld/src/main/java/com/binshow/_101springboothelloworld/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +42,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar!/org/apache/logging/log4j/LogManager.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.0/slf4j-api-2.0.0.jar!/org/slf4j/LoggerFactory.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.2.3/spring-boot-autoconfigure-3.2.3.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar!/org/springframework/beans/factory/BeanFactory.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar!/org/springframework/context/support/AbstractApplicationContext.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,39 +60,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/binshow/IdeaProjects/spring_study/_103-springboot-mybatis/src/main/java/com/binshow/_103springbootmybatis",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/binshow/IdeaProjects/spring_study/_103-springboot-mybatis/src/main/java/com/binshow/_103springbootmybatis&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_103-springboot-mybatis/src/main/java/com/binshow/_103springbootmybatis" />
@@ -94,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (2)">
+  <component name="RunManager" selected="Application.App (1)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="_01_spring_ioc" />
@@ -121,6 +134,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dao.Student" />
+      <module name="_01_spring_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.binshow.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.binshow.App" />
+      <module name="_02_spring_log4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.binshow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_01_spring_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="_102-springboot-jdbc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.binshow._102springbootjdbc.Application" />
@@ -135,6 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="_104-springboot-swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.binshow._104springbootswagger.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="_101-springboot-helloworld" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.binshow._101springboothelloworld.Application" />
@@ -145,6 +207,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.Student" />
+        <item itemvalue="JUnit.AppTest.test" />
+        <item itemvalue="Application.org.binshow.App" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -158,7 +223,9 @@
       <option name="presentableId" value="Default" />
       <updated>1708764526219</updated>
       <workItem from="1708764527354" duration="6536000" />
-      <workItem from="1708830592122" duration="3791000" />
+      <workItem from="1708830592122" duration="7782000" />
+      <workItem from="1709858758435" duration="2855000" />
+      <workItem from="1710205469480" duration="1963000" />
     </task>
     <servers />
   </component>
@@ -175,6 +242,11 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.0/spring-context-6.0.0-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java</url>
           <line>140</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar!/org/apache/logging/log4j/LogManager.class</url>
+          <line>230</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
