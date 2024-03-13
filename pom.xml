@@ -12,6 +12,9 @@
   <modules>
     <module>_01_spring_ioc</module>
       <module>_02_spring_log4j</module>
+    <module>_03_spring_aop</module>
+      <module>_10_spring_mybatis_helloworld</module>
+      <module>_11_spring_mybatis_sql</module>
   </modules>
 
   <properties>

@@ -5,22 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efa2c9c8-d1f0-40d2-b56a-c0c82cd53878" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/resource/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_spring_log4j/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_spring_log4j/src/main/java/org/binshow/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_spring_log4j/src/test/java/org/binshow/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_104-springboot-swagger/src/main/java/com/binshow/_104springbootswagger/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_104-springboot-swagger/src/main/java/com/binshow/_104springbootswagger/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_104-springboot-swagger/src/main/java/com/binshow/_104springbootswagger/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_spring_aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_spring_aop/src/main/java/org/binshow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_spring_aop/src/main/java/org/binshow/agent/AgentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_spring_aop/src/main/java/org/binshow/agent/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_spring_aop/src/main/java/org/binshow/agent/CalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_spring_aop/src/main/java/org/binshow/agent/CalculatorStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_spring_aop/src/main/java/org/binshow/agent/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_spring_aop/src/main/java/org/binshow/aop/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_spring_aop/src/main/java/org/binshow/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_spring_aop/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_spring_aop/src/test/java/AopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_spring_mybatis_helloworld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_spring_mybatis_helloworld/src/main/java/org/binshow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_spring_mybatis_helloworld/src/main/java/org/binshow/dao/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_spring_mybatis_helloworld/src/main/java/org/binshow/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_spring_mybatis_helloworld/src/main/resources/example.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_spring_mybatis_helloworld/src/main/resources/mappers/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_spring_mybatis_helloworld/src/main/resources/mappers/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_spring_mybatis_helloworld/src/test/java/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_spring_mybatis_sql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_spring_mybatis_sql/src/main/java/org/binshow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_spring_mybatis_sql/src/main/java/org/binshow/dao/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_spring_mybatis_sql/src/main/java/org/binshow/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_spring_mybatis_sql/src/main/resources/mappers/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_spring_mybatis_sql/src/main/resources/mappers/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_spring_mybatis_sql/src/test/java/MybatisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_01_spring_ioc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_01_spring_ioc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/org/example/dao/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/org/example/dao/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/resource/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_01_spring_ioc/src/main/java/resource/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_01_spring_ioc/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/_01_spring_ioc/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_101-springboot-helloworld/src/main/java/com/binshow/_101springboothelloworld/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/_101-springboot-helloworld/src/main/java/com/binshow/_101springboothelloworld/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +44,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Mybatis Mapper" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -55,123 +69,148 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2co4JXU6cSDsSzSU137MQtQ3K30" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/binshow/IdeaProjects/spring_study/_103-springboot-mybatis/src/main/java/com/binshow/_103springbootmybatis&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.AgentTest.testDynamicProxy.executor": "Run",
+    "JUnit.AopTest.testCalculator.executor": "Run",
+    "JUnit.MybatisTest.testInsert.executor": "Run",
+    "JUnit.MybatisTest.testInsertEmployeeReturn.executor": "Run",
+    "JUnit.MybatisTest.testQueryEmpNameAndSalary.executor": "Run",
+    "JUnit.MybatisTest.testSelectAll.executor": "Run",
+    "JUnit.MybatisTest.testSelectEmpCount.executor": "Run",
+    "JUnit.MybatisTest.testSelectEmployee (1).executor": "Run",
+    "JUnit.MybatisTest.testSelectEmployee.executor": "Run",
+    "JUnit.MybatisTest.testUpdate.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/shengbinbin/IdeaProjects/spring-study/_11_spring_mybatis_sql/src/main/java/org/binshow",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.binshow.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_11_spring_mybatis_sql/src/main/java/org/binshow" />
+      <recent name="$PROJECT_DIR$/_11_spring_mybatis_sql/src/main/resources" />
       <recent name="$PROJECT_DIR$/_103-springboot-mybatis/src/main/java/com/binshow/_103springbootmybatis" />
       <recent name="$PROJECT_DIR$/_102-springboot-jdbc/src/main/java/com/binshow/_102springbootjdbc/service" />
       <recent name="$PROJECT_DIR$/_01_spring_ioc/src/main/java/resource" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_10_spring_mybatis_helloworld/src/main/resources/mappers" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
-      <module name="_01_spring_ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
-      <module name="spring_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dao.Student" />
-      <module name="_01_spring_ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.binshow.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.binshow.App" />
-      <module name="_02_spring_log4j" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.binshow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_01_spring_ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
-      <option name="METHOD_NAME" value="test" />
+  <component name="RunManager" selected="JUnit.MybatisTest.testInsertEmployeeReturn">
+    <configuration name="MybatisTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_11_spring_mybatis_sql" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testInsertEmployeeReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_11_spring_mybatis_sql" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
+      <option name="METHOD_NAME" value="testInsertEmployeeReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testQueryEmpNameAndSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_11_spring_mybatis_sql" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
+      <option name="METHOD_NAME" value="testQueryEmpNameAndSalary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_11_spring_mybatis_sql" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
+      <option name="METHOD_NAME" value="testSelectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testSelectEmpCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_11_spring_mybatis_sql" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTest" />
+      <option name="METHOD_NAME" value="testSelectEmpCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring_study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring_study" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,13 +245,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="JUnit.AppTest.test" />
-        <item itemvalue="Application.org.binshow.App" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.MybatisTest.testInsertEmployeeReturn" />
+        <item itemvalue="JUnit.MybatisTest.testQueryEmpNameAndSalary" />
+        <item itemvalue="JUnit.MybatisTest.testInsert" />
+        <item itemvalue="JUnit.MybatisTest.testSelectAll" />
+        <item itemvalue="JUnit.MybatisTest.testSelectEmpCount" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-995e55e7" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -231,6 +278,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

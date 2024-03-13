@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace等于mapper接口类的全限定名,这样实现对应 -->
+<mapper namespace="org.binshow.mapper.EmployeeMapper">
+
+    <!-- 查询使用 select标签
+            id = 方法名
+            resultType = 返回值类型
+            标签内编写SQL语句
+     -->
+    <select id="selectEmployee" resultType="org.binshow.dao.Employee">
+        <!-- #{empId}代表动态传入的参数,并且进行赋值!后面详细讲解 -->
+        select emp_id empId,emp_name empName, emp_salary empSalary from
+        t_emp where emp_id = #{empId}
+    </select>
+
+
+    <insert id="insertEmployee">
+        insert into t_emp(emp_name,emp_salary) values(#{empName},#{empSalary})
+    </insert>
+
+    <update id="updateEmployee">
+        update t_emp set emp_salary=#{empSalary} where emp_id=#{empId}
+    </update>
+
+
+    <update id="updateEmployeeByMap">
+        update t_emp set emp_salary=#{empSalaryKey} where emp_id=#{empIdKey}
+    </update>
+
+    <select id="selectEmpCount" resultType="int">
+        select count(*) from t_emp
+    </select>
+
+
+    <!-- Map<String,Object> selectEmpNameAndMaxSalary(); -->
+    <!-- 返回工资最高的员工的姓名和他的工资 -->
+    <select id="selectEmpNameAndMaxSalary" resultType="map">
+        SELECT
+        emp_name 员工姓名,
+        emp_salary 员工工资,
+        (SELECT AVG(emp_salary) FROM t_emp) 部门平均工资
+        FROM t_emp WHERE emp_salary=(
+        SELECT MAX(emp_salary) FROM t_emp
+        )
+    </select>
+
+
+    <!-- List<Employee> selectAll(); -->
+    <select id="selectAll" resultType="org.binshow.dao.Employee">
+        select emp_id empId,emp_name empName,emp_salary empSalary
+        from t_emp
+    </select>
+
+
+    <!-- int insertEmployee(Employee employee); -->
+    <!-- useGeneratedKeys属性字面意思就是“使用生成的主键” -->
+    <!-- keyProperty属性可以指定主键在实体类对象中对应的属性名，Mybatis会将拿到的主键值存入这个属性 -->
+<!--    Mybatis是将自增主键的值设置到实体类对象中，而不是以Mapper接口方法返回值的形式返回。-->
+    <insert id="insertEmployeeReturn" useGeneratedKeys="true" keyProperty="empId">
+        insert into t_emp(emp_name,emp_salary)
+        values(#{empName},#{empSalary})
+    </insert>
+
+
+    <!-- 专门声明一个resultMap设定column到property之间的对应关系 -->
+    <resultMap id="selectEmployeeByRMResultMap" type="org.binshow.dao.Employee">
+        <!-- 使用id标签设置主键列和主键属性之间的对应关系 -->
+        <!-- column属性用于指定字段名；property属性用于指定Java实体类属性名 -->
+        <id column="emp_id" property="empId"/>
+        <!-- 使用result标签设置普通字段和Java实体类属性之间的关系 -->
+        <result column="emp_name" property="empName"/>
+        <result column="emp_salary" property="empSalary"/>
+
+    </resultMap>
+    <!-- Employee selectEmployeeByRM(Integer empId); -->
+    <select id="selectEmployeeByRM" resultMap="selectEmployeeByRMResultMap">
+        select emp_id,emp_name,emp_salary from t_emp where emp_id=#{empId}
+    </select>
+
+</mapper>
