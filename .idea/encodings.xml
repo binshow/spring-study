@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/_02_spring_log4j/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_03_spring_aop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_03_spring_aop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_100-springboot-helloworld/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_101-springboot-helloworld/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_102-springboot-jdbc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_103-springboot-mybatis/src/main/java" charset="UTF-8" />
@@ -15,6 +16,8 @@
     <file url="file://$PROJECT_DIR$/_10_spring_mybatis_helloworld/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_11_spring_mybatis_sql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_11_spring_mybatis_sql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_12_spring_mybatis_multitable/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_12_spring_mybatis_multitable/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

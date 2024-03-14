@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace等于mapper接口类的全限定名,这样实现对应 -->
+<mapper namespace="org.binshow.mapper.OrderMapper">
+
+
+    <!--一对一需求 ：   -->
+
+    <!-- 这里 的 type="order" 需要取别名，不然得取全类名-->
+    <resultMap id="orderMap" type="order">
+        <!--第一层属性 order 对象-->
+        <!-- order的主键 id 标签 -->
+        <id column="order_id" property="orderId"/>
+        <!--普通列-->
+        <result column="order_name" property="orderName"/>
+        <result column="customer_id" property="customerId"/>
+
+
+        <!-- 使用association标签配置“对一”关联关系 -->
+        <!-- property属性：在Order类中对一的一端进行引用时使用的属性名 -->
+        <!-- javaType属性：一的一端类的全类名 -->
+        <association property="customer" javaType="customer">
+            <!-- 配置Customer类的属性和字段名之间的对应关系 -->
+            <id column="customer_id" property="customerId"/>
+            <result column="customer_name" property="customerName"/>
+        </association>
+    </resultMap>
+
+    <!--根据id查询订单和订单关联的客户信息-->
+    <select id="queryOrderById" resultMap="orderMap">
+        <!--属性名一样的可以自动映射，属性名不一样的就得自定义映射关系 ，比如 customer-->
+        select * from t_order tor join t_customer tur
+        on tor.customer_id = tur.customer_id
+        where tor.order_id = #{id}
+    </select>
+
+
+</mapper>

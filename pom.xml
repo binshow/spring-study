@@ -15,6 +15,7 @@
     <module>_03_spring_aop</module>
       <module>_10_spring_mybatis_helloworld</module>
       <module>_11_spring_mybatis_sql</module>
+    <module>_12_spring_mybatis_multitable</module>
   </modules>
 
   <properties>
@@ -26,7 +27,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
-      <version>6.0.0</version>
+      <version>5.3.21</version>
     </dependency>
 
     <!--log4j2的依赖-->
@@ -41,12 +42,28 @@
       <version>2.19.0</version>
     </dependency>
 
+
+    <!-- mybatis依赖 -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.5.11</version>
     </dependency>
+
+    <!-- MySQL驱动 mybatis底层依赖jdbc驱动实现,本次不需要导入连接池,mybatis自带! -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.25</version>
+    </dependency>
+
+    <!--junit5测试-->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.3.1</version>
+    </dependency>
+
 
   </dependencies>
 </project>
